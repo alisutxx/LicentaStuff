@@ -1,0 +1,11 @@
+﻿
+@model LicentaStuff.Models.NewRoomViewModel
+
+<h2>Show</h2>
+
+<div><h3>@Html.Raw(Model.Room.Name.Replace(Environment.NewLine, "<br/>"))</h3></div>
+<br />
+<br />
+
+@Html.ActionLink("Back to the project", "Show", "Project", new { id = Model.ProjectId }, new { @class = "btn btn-primary" })
+

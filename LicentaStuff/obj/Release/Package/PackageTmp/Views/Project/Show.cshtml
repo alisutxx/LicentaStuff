@@ -1,0 +1,37 @@
+﻿@model LicentaStuff.Models.ShowProjectViewModel
+
+<h2>Show</h2>
+
+<div><h3>@Html.ActionLink(Model.Project.Name, "Edit", "Project", new { id = Model.Project.Id }, null)</h3></div>
+<div><strong>Description:</strong><br />@Html.Raw(Model.Project.Description.Replace(Environment.NewLine, "<br/>"))</div>
+<div><strong>No. of rooms:</strong> @Model.Project.NrRooms </div>
+<br />
+<br />
+<ul>
+    @foreach (var room in Model.Rooms)
+    {
+    <li>
+        @Html.ActionLink(room.Name, "Edit", "Room", new { id = room.Id }, null)
+        @using (Html.BeginForm(actionName: "Delete", controllerName: "Room", method: FormMethod.Post, routeValues: new { id = room.Id }))
+        {
+            @Html.HttpMethodOverride(HttpVerbs.Delete)
+            <button class="btn btn-primary" type="submit">Delete room</button>
+        }
+    </li>
+    }
+</ul>
+
+@Html.ActionLink("Add rooms", "New", "Room", new { id = Model.Project.Id }, new { @class = "btn btn-primary" })
+<div>@Model.Project.DateTime</div>
+<br />
+
+
+@using (Html.BeginForm(actionName: "Delete", controllerName: "Project", method: FormMethod.Post, routeValues: new { id = Model.Project.Id }))
+{
+    @Html.HttpMethodOverride(HttpVerbs.Delete)
+    <button class="btn btn-primary" type="submit">Delete project</button>
+}
+<br />
+<br />
+
+@Html.ActionLink("Back to projects", "Index", "Project", null, new { @class = "btn btn-primary" })

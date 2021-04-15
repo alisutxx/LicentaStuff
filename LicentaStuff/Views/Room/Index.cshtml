@@ -1,0 +1,13 @@
+﻿@model List<LicentaStuff.Models.Room>
+
+<h2>Index</h2>
+
+
+@Html.ActionLink("Add room", "New", "Room", null, new { @class = "btn btn-primary" })
+
+
+@foreach (var item in Model)
+{
+    <div>@Html.ActionLink(item.Name, "Show", "Room", new { id = item.Id }, null) </div>
+    <br />
+}

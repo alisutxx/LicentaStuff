@@ -1,0 +1,451 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3222,
+      "max": [
+        1.1989530324935913,
+        1.2131860256195068,
+        2.2085640430450439
+      ],
+      "min": [
+        -1.1989530324935913,
+        -1.2094260454177856,
+        1.7236560583114624
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 38664,
+      "componentType": 5126,
+      "count": 3222,
+      "max": [
+        0.98755872249603271,
+        0.99994170665740967,
+        0.99864703416824341
+      ],
+      "min": [
+        -0.98755872249603271,
+        -0.99997186660766602,
+        -0.99872404336929321
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3222,
+      "max": [
+        1,
+        0.20076274871826172,
+        0.98760479688644409,
+        1
+      ],
+      "min": [
+        -0.15729166567325592,
+        -0.99990701675415039,
+        -0.98744136095046997,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3222,
+      "max": [
+        0.68179202079772949,
+        0.69132798910140991
+      ],
+      "min": [
+        0.3918209969997406,
+        0.45005398988723755
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 17280,
+      "max": [
+        3221
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 77328,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        1.6105660200119019,
+        1.4182920455932617,
+        4.5195469856262207
+      ],
+      "min": [
+        -1.6105669736862183,
+        -1.4197709560394287,
+        -0.0041530001908540726
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 261312,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        0.99995815753936768,
+        0.9999992847442627,
+        0.99776929616928101
+      ],
+      "min": [
+        -0.99995815753936768,
+        -0.99999690055847168,
+        -0.9999614953994751
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 51552,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        0.99999874830245972,
+        1,
+        0.84044426679611206,
+        1
+      ],
+      "min": [
+        -0.99999868869781494,
+        -0.99903601408004761,
+        -0.99975448846817017,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 25776,
+      "componentType": 5126,
+      "count": 15332,
+      "max": [
+        0.9718170166015625,
+        0.99118399620056152
+      ],
+      "min": [
+        0.010222000069916248,
+        0.010406999848783016
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 69120,
+      "componentType": 5125,
+      "count": 81408,
+      "max": [
+        15331
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 445296,
+      "componentType": 5126,
+      "count": 5724,
+      "max": [
+        1.5868020057678223,
+        1.5595999956130981,
+        5.0006790161132812
+      ],
+      "min": [
+        -1.5868020057678223,
+        -1.5657299757003784,
+        2.604032039642334
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 513984,
+      "componentType": 5126,
+      "count": 5724,
+      "max": [
+        0.99080497026443481,
+        0.99904024600982666,
+        0.99921166896820068
+      ],
+      "min": [
+        -0.99080783128738403,
+        -0.99971431493759155,
+        -0.99920773506164551
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 296864,
+      "componentType": 5126,
+      "count": 5724,
+      "max": [
+        1,
+        0.9702681303024292,
+        0.99904030561447144,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99348217248916626,
+        -0.99485379457473755,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 148432,
+      "componentType": 5126,
+      "count": 5724,
+      "max": [
+        0.71439200639724731,
+        0.99823600053787231
+      ],
+      "min": [
+        0.28220099210739136,
+        0.0099560003727674484
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 394752,
+      "componentType": 5125,
+      "count": 30240,
+      "max": [
+        5723
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "¡Jacques (https://sketchfab.com/DanTCM3)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/soborg-oak-wooden-chair-b905d354b1554d4399db1db5346ce895",
+      "title": "Soborg Oak Wooden Chair"
+    },
+    "generator": "Sketchfab-9.6.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 515712,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 194224,
+      "byteOffset": 515712,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 582672,
+      "byteOffset": 709936,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 388448,
+      "byteOffset": 1292608,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1681056,
+      "uri": "2.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures2/Material_baseColor.png"
+    },
+    {
+      "uri": "textures2/Material_metallicRoughness.png"
+    },
+    {
+      "uri": "textures2/Material_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.47911554955878805
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "name": "Soborg Oak.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    },
+    {
+      "mesh": 2,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

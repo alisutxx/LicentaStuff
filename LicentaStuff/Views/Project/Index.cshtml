@@ -1,0 +1,21 @@
+﻿
+@model List<LicentaStuff.Models.Project>
+
+
+
+@if (User.IsInRole("User"))
+{<h2>Your projects</h2>
+    <div> @Html.ActionLink("Add New Project", "New", "Project", null, new { @class = "btn btn-primary" })</div>
+}
+@if (User.IsInRole("Admin"))
+{
+    <h2>Projects</h2>
+}
+
+
+@foreach (var item in Model)
+{
+    <div>@Html.ActionLink(item.Name, "Show", "Project", new { id = item.Id }, null) </div>
+    <div>@Html.Raw(item.Description.Replace(Environment.NewLine, "<br/>"))</div>
+    <br />
+}
